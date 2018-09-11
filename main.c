@@ -44,7 +44,7 @@ int main()
         printf("Enter any other data = ");
         for(i=0;i<m+k;i++)
             scanf("%d",&s[i]);
-        t=fun_modulo(f,g,m,n,&pos);
+        t=fun_modulo(s,g,m,n,&pos);
         check(t);
         printf("\nWish to Continue...Press 0 else any value:");
         scanf("%d",&t1);
